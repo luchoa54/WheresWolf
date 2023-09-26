@@ -11,6 +11,7 @@ import CoreBluetooth
 struct ContentView: View {
     
     @ObservedObject var connect = CoreBluetoothManager()
+    
     @State var wasKilled: Bool = false
     
     var body: some View {
@@ -24,10 +25,7 @@ struct ContentView: View {
                 Spacer()
                 
                 Text("Discovered Users: \(connect.discoveredPeers.count)")
-                    .font(
-                    Font.custom("Arial", size: 32)
-                    .weight(.bold)
-                    )
+                    .font(.anybodyBold(size: 32))
                     .foregroundColor(.white)
                 
                 if (wasKilled) {
@@ -51,10 +49,7 @@ struct ContentView: View {
                             .frame(width: 100, height: 100, alignment: .center)
                         
                         Text("You are close enough to a villager")
-                            .font(
-                            Font.custom("Arial", size: 17)
-                            .weight(.bold)
-                            )
+                            .font(.anybodyRegular(size: 17))
                             .foregroundColor(.white)
                         
                         Button(action: {
