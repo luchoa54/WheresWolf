@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		66CF69042AC30C5C00F0EC4B /* DiscoveredPeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CF69032AC30C5C00F0EC4B /* DiscoveredPeer.swift */; };
-		66CF69062AC30FC700F0EC4B /* CoreBluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CF69052AC30FC700F0EC4B /* CoreBluetoothManager.swift */; };
-		66CF69082AC311B000F0EC4B /* MultipeerConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CF69072AC311B000F0EC4B /* MultipeerConnectivityManager.swift */; };
 		66CF69122AC3876A00F0EC4B /* Anybody-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66CF690D2AC3876900F0EC4B /* Anybody-Medium.ttf */; };
 		66CF69132AC3876A00F0EC4B /* Anybody-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66CF690E2AC3876900F0EC4B /* Anybody-Bold.ttf */; };
 		66CF69142AC3876A00F0EC4B /* Anybody-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66CF690F2AC3876A00F0EC4B /* Anybody-Regular.ttf */; };
@@ -18,6 +16,7 @@
 		66CF691A2AC3887700F0EC4B /* Font+AnybodyFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CF69192AC3887700F0EC4B /* Font+AnybodyFont.swift */; };
 		66CF691D2AC3898B00F0EC4B /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CF691C2AC3898B00F0EC4B /* MainMenuView.swift */; };
 		66CF691F2AC38A0F00F0EC4B /* Hex+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CF691E2AC38A0F00F0EC4B /* Hex+Color.swift */; };
+		66CF69212AC39BF600F0EC4B /* WolfConnectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CF69202AC39BF600F0EC4B /* WolfConnectionViewModel.swift */; };
 		66FE1B172AC10ED6001FFEB1 /* WhereWolfTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FE1B162AC10ED6001FFEB1 /* WhereWolfTestApp.swift */; };
 		66FE1B192AC10ED6001FFEB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FE1B182AC10ED6001FFEB1 /* ContentView.swift */; };
 		66FE1B1B2AC10ED7001FFEB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FE1B1A2AC10ED7001FFEB1 /* Assets.xcassets */; };
@@ -26,8 +25,6 @@
 
 /* Begin PBXFileReference section */
 		66CF69032AC30C5C00F0EC4B /* DiscoveredPeer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveredPeer.swift; sourceTree = "<group>"; };
-		66CF69052AC30FC700F0EC4B /* CoreBluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothManager.swift; sourceTree = "<group>"; };
-		66CF69072AC311B000F0EC4B /* MultipeerConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerConnectivityManager.swift; sourceTree = "<group>"; };
 		66CF69092AC3123800F0EC4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		66CF690D2AC3876900F0EC4B /* Anybody-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Anybody-Medium.ttf"; sourceTree = "<group>"; };
 		66CF690E2AC3876900F0EC4B /* Anybody-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Anybody-Bold.ttf"; sourceTree = "<group>"; };
@@ -37,6 +34,7 @@
 		66CF69192AC3887700F0EC4B /* Font+AnybodyFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+AnybodyFont.swift"; sourceTree = "<group>"; };
 		66CF691C2AC3898B00F0EC4B /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		66CF691E2AC38A0F00F0EC4B /* Hex+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hex+Color.swift"; sourceTree = "<group>"; };
+		66CF69202AC39BF600F0EC4B /* WolfConnectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolfConnectionViewModel.swift; sourceTree = "<group>"; };
 		66FE1B132AC10ED6001FFEB1 /* WhereWolfTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereWolfTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FE1B162AC10ED6001FFEB1 /* WhereWolfTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereWolfTestApp.swift; sourceTree = "<group>"; };
 		66FE1B182AC10ED6001FFEB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,8 +56,7 @@
 		66CF690A2AC37EA400F0EC4B /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				66CF69052AC30FC700F0EC4B /* CoreBluetoothManager.swift */,
-				66CF69072AC311B000F0EC4B /* MultipeerConnectivityManager.swift */,
+				66CF69202AC39BF600F0EC4B /* WolfConnectionViewModel.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -223,8 +220,7 @@
 				66FE1B172AC10ED6001FFEB1 /* WhereWolfTestApp.swift in Sources */,
 				66CF691A2AC3887700F0EC4B /* Font+AnybodyFont.swift in Sources */,
 				66CF69042AC30C5C00F0EC4B /* DiscoveredPeer.swift in Sources */,
-				66CF69062AC30FC700F0EC4B /* CoreBluetoothManager.swift in Sources */,
-				66CF69082AC311B000F0EC4B /* MultipeerConnectivityManager.swift in Sources */,
+				66CF69212AC39BF600F0EC4B /* WolfConnectionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
