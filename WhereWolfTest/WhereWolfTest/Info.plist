@@ -10,10 +10,12 @@
 		<string>Anybody-Regular.ttf</string>
 		<string>Anybody-SemiBold.ttf</string>
 	</array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Use network for testing</string>
 	<key>NSBonjourServices</key>
 	<array>
-		<string>_radar._tcp</string>
-		<string>_radar._udp</string>
+		<string>_wolf._tcp</string>
+		<string>_wolf._udp</string>
 	</array>
 	<key>UIBackgroundModes</key>
 	<array>

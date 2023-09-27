@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		666ADB252AC458EF008D0A79 /* MultipeerConnectivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666ADB242AC458EF008D0A79 /* MultipeerConnectivityController.swift */; };
+		666ADB272AC45B9C008D0A79 /* TestMultipeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666ADB262AC45B9C008D0A79 /* TestMultipeerView.swift */; };
+		666ADB292AC45C44008D0A79 /* MultipeerConnectivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666ADB282AC45C44008D0A79 /* MultipeerConnectivityViewModel.swift */; };
 		66CF69042AC30C5C00F0EC4B /* DiscoveredPeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CF69032AC30C5C00F0EC4B /* DiscoveredPeer.swift */; };
 		66CF69122AC3876A00F0EC4B /* Anybody-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66CF690D2AC3876900F0EC4B /* Anybody-Medium.ttf */; };
 		66CF69132AC3876A00F0EC4B /* Anybody-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66CF690E2AC3876900F0EC4B /* Anybody-Bold.ttf */; };
@@ -24,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		666ADB242AC458EF008D0A79 /* MultipeerConnectivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerConnectivityController.swift; sourceTree = "<group>"; };
+		666ADB262AC45B9C008D0A79 /* TestMultipeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMultipeerView.swift; sourceTree = "<group>"; };
+		666ADB282AC45C44008D0A79 /* MultipeerConnectivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerConnectivityViewModel.swift; sourceTree = "<group>"; };
 		66CF69032AC30C5C00F0EC4B /* DiscoveredPeer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveredPeer.swift; sourceTree = "<group>"; };
 		66CF69092AC3123800F0EC4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		66CF690D2AC3876900F0EC4B /* Anybody-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Anybody-Medium.ttf"; sourceTree = "<group>"; };
@@ -57,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				66CF69202AC39BF600F0EC4B /* WolfConnectionViewModel.swift */,
+				666ADB242AC458EF008D0A79 /* MultipeerConnectivityController.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -65,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				66CF69032AC30C5C00F0EC4B /* DiscoveredPeer.swift */,
+				666ADB282AC45C44008D0A79 /* MultipeerConnectivityViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,6 +103,7 @@
 			children = (
 				66CF691C2AC3898B00F0EC4B /* MainMenuView.swift */,
 				66FE1B182AC10ED6001FFEB1 /* ContentView.swift */,
+				666ADB262AC45B9C008D0A79 /* TestMultipeerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -216,11 +225,14 @@
 			files = (
 				66FE1B192AC10ED6001FFEB1 /* ContentView.swift in Sources */,
 				66CF691F2AC38A0F00F0EC4B /* Hex+Color.swift in Sources */,
+				666ADB252AC458EF008D0A79 /* MultipeerConnectivityController.swift in Sources */,
 				66CF691D2AC3898B00F0EC4B /* MainMenuView.swift in Sources */,
 				66FE1B172AC10ED6001FFEB1 /* WhereWolfTestApp.swift in Sources */,
 				66CF691A2AC3887700F0EC4B /* Font+AnybodyFont.swift in Sources */,
 				66CF69042AC30C5C00F0EC4B /* DiscoveredPeer.swift in Sources */,
+				666ADB292AC45C44008D0A79 /* MultipeerConnectivityViewModel.swift in Sources */,
 				66CF69212AC39BF600F0EC4B /* WolfConnectionViewModel.swift in Sources */,
+				666ADB272AC45B9C008D0A79 /* TestMultipeerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
